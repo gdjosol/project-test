@@ -1,0 +1,33 @@
+.project-tile {
+  width: 22vw;
+  height: 25vh;
+  border: white;
+  flex: 0 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 0.5vw;
+  margin-top: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+.project-tile .project-image{
+    position:absolute;
+    left:0;top:0;
+    height:100%;
+    width:100%;
+    z-index:1;
+    opacity:0.4;
+}
+
+.project-tile p{
+    color:white;
+    font-size:0.75em;
+    transition:font-size 0.5s;
+    z-index: 2;
+}
+
+.project-tile:hover p{
+    font-size:0.85em;
+}

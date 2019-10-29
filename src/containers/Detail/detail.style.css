@@ -1,0 +1,11 @@
+.detail-dialog{
+    margin:0.5vh 0.5vw;
+    display:flex;
+    flex-direction:column;
+}
+.detail-dialog .project-image{
+    height:40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
